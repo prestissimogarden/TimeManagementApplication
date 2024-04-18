@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Projeto\project.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Projeto\NewFile1.txt" />
+  </ItemGroup>
+
 </Project>
